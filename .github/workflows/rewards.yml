@@ -8,6 +8,7 @@ on:
 jobs:
   login-account:
     runs-on: ubuntu-latest
+    environment: GS4
     name: login account
     timeout-minutes: 5
     steps:
