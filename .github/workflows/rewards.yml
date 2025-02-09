@@ -4,7 +4,7 @@ on:
   schedule:
     # CRON Generator Link: https://crontab.guru/#5_1_*_*_*
     # Below is 01:05 AM UTC
-    - cron: "5 1 * * *"
+    - cron: "5 6 * * *"
 jobs:
   login-account:
     runs-on: ubuntu-latest
